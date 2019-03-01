@@ -7,9 +7,9 @@ print("Hello,world!")
 
 b = [1, 2, 3]
 
-get_ipython().run_line_magic('pinfo', 'b')
+# get_ipython().run_line_magic('pinfo', 'b')
 
-get_ipython().run_line_magic('pinfo', 'print')
+# get_ipython().run_line_magic('pinfo', 'print')
 
 def add_numbers(a, b):
     """
@@ -117,7 +117,6 @@ a_list[2] = (3, 4)
 a_tuple = (1, 2, (3, 4))
 
 a_tuple[1] = "four"
- In[6]:
 
 
 c = """
